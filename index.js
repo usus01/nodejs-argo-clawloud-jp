@@ -20,7 +20,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '5G409RXzDvcCwK0TaH';              //
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'clawloud-jp.keaiduo.ggff.net';          // 固定隧道域名,留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjA2ZWRhZjA4NTVkMWQ1NTE3MzUwMTRjYzI5YTA3YjgiLCJ0IjoiZGEzODE2NDUtMTIzYS00MTZjLTg0ZGYtMTgyNzY5ZWYxNTAwIiwicyI6IlpUQTNZVEV3TXpNdE1tWmlNUzAwTm1JekxXRmtPRGd0TXprd01XTTROVEZrT1RjNSJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'youxuan.yuyu2012.nyc.mn';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'clawloud-jp';                        // 节点名称
 
